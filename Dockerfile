@@ -1,4 +1,4 @@
-FROM node:14-slim
+FROM --platform=linux/amd64 node:14-slim
 
 WORKDIR /home/node/app
 COPY package*.json ./
